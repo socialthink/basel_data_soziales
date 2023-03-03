@@ -4,10 +4,10 @@
 Statistisches Amt des Kantons Basel-Stadt, Statistik zu Bestand und Belegung der Notwohnungen
 Quelle: https://www.statistik.bs.ch/dam/jcr:60c6c240-17aa-427f-a073-332f3b08a591/t13-2-60.xlsx
 
-Notwohnungen_Bestand.csv
-Notwohnungen_Belegung.csv
-Notwohnungen_Auslastung.csv
-Notwohnungen_Mietdauer.csv
+- Notwohnungen_Bestand.csv
+- Notwohnungen_Belegung.csv
+- Notwohnungen_Auslastung.csv
+- Notwohnungen_Mietdauer.csv
 
 ## Notschlafstelle
 Statistisches Amt des Kantons Basel-Stadt, Statistik zu Angebot und Nutzung der Notschlafstelle
