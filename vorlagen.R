@@ -6,11 +6,13 @@ library(readr)
 data <- read_csv("Data_BS_Notschlafstelle - Übernachtende Personen nach Anzahl Nächten.csv", 
             col_types = cols(Jahr = col_double()))
 
+data <- read_delim("beistandshcaften.csv", 
+           delim = ";", escape_double = FALSE, trim_ws = TRUE)
 
-data <- data %>% pivot_longer(!Jahr,names_to = "Naechte", values_to = "Count")
+data <- data %>% pivot_longer(!Jahr,names_to = "Art", values_to = "Count")
 
 
-write_csv(data, file = "daten/Notschlafstelle_Uebernachtende_nach_Naechte.csv")
+write_csv(data, file = "daten/Beistandschaften_Erwachsene_Art.csv")
 
 
 
