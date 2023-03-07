@@ -160,8 +160,3 @@ p <- data %>% ggplot(aes(x=Jahr,y=Count, linetype=Art, colour=Art)) +
 p
 
 ggsave(file = "plot/Beistandschaften_Erwachsene_Art.png", plot = p, width = 15, height = 10, units = "cm")
-
-
-
-
-# kommentar neu
